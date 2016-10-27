@@ -15,11 +15,11 @@ Package.onUse(function (api) {
 		'templating',
 		'jquery',
 		'reactive-var',
-		'iron:router@1.0.0',
+		'clinical:router',
 		'iron:layout@1.0.0'
 	], 'client');
 
-	api.imply('iron:router');
+	api.imply('clinical:router');
 
 	api.addFiles([
 		'progress.html',
